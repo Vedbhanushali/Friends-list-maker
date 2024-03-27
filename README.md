@@ -35,3 +35,19 @@ get 'home/about'
 ```
 can visit this page using this url
 ```home/about```
+
+
+## rails generate scaffold
+generating model
+```
+rails g scaffold friends first_name:string last_name:string email:string phone:string twitter:string
+```
+After this need to do db migrate to push this changes of models into database
+```
+rails db:migrate
+```
+
+to view all routes
+```
+rails routes
+```

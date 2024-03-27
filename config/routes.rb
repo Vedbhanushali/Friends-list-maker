@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :friends
   # get 'home/index'
   root 'home#index' #made root page layout to home view
   get 'home/about'
