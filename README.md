@@ -51,3 +51,36 @@ to view all routes
 ```
 rails routes
 ```
+
+## Installing new gem file
+
+visit for gems
+<https://rubygems.org/>
+
+copy gem file code in Gemfile  
+example installing devise gem for login and auth
+
+```
+gem 'devise', '~> 4.9', '>= 4.9.3'
+```
+stop the server if running and perform
+
+```
+bundle install
+```
+then we can follow the documentation for setup further of that gem, currrently setting up devise
+```
+rails generate devise:install
+```
+after this steps perform steps provided in console
+later from documentation do this
+adding devise model as uesr
+```
+rails generate devise user
+```
+as we have created table we need to migrate it
+```
+rails db:migrate
+```
+
+
