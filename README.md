@@ -1,5 +1,7 @@
 # Friends List Maker
 
+https://github.com/user-attachments/assets/062d7e18-846f-47ad-8a21-9ad1985ddfc7
+
 ## Description:
 
 Friends List Maker is a full-stack Ruby on Rails application designed to manage your social connections. This project allows users to register and log in securely, and then create and maintain a personalized list of friends, complete with relevant details.
